@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #363958;
+}
+
+span {
+  color: #fa804c;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.img-wd {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+header,
+section {
+  margin-bottom: 80px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.logo-area,
+.nav-area {
+  padding: 30px 0;
+}
+
+nav.nav-area a {
+  color: #3c3c3c;
+  transition: 0.3s;
+}
+
+nav.nav-area a:hover {
+  color: #151515;
+}
+
+.pd-card {
+  padding: 20px;
+  box-shadow: 10px 10px 15px #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.im-bg {
+  width: 100%;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.pd-card img {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.left-sec img {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.single-ingo-sec {
+  padding: 20px;
+  box-shadow: 10px 10px 15px #ededed;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.right-sec {
+  margin-left: 25px;
+}
+
+a.btn {
+  padding: 10px 20px;
+  background-color: #3d4ff3;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: 2px solid;
+}
+
+a.btn:hover {
+  background: none;
+  border: 2px solid #3d4ff3;
+  color: #3d4ff3;
+}
+
+a.btn i {
+  padding-right: 10px;
+}
+
+@media (max-width: 576px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mrb {
+    margin-bottom: 40px;
+  }
+}
